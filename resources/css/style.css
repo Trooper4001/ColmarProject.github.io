@@ -1,0 +1,132 @@
+/* Universal Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  position: relative;
+}
+
+.content {
+  display: flex;
+  height: 64px;
+  width: 100%;
+  align-items: center;
+  font-family: Roboto-Regular, sans-serif;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background-color: white;
+}
+
+.desktop {
+  width: 100%;
+}
+
+header img {
+  height: 32px;
+}
+
+a.logo {
+  display: flex;
+  text-decoration: none;
+  font-size: 28px;
+  padding-left: 24px;
+  color: #a1a1a1;
+}
+
+strong {
+  color:#4b4b4b;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 24px;
+}
+
+nav li {
+  padding-left: 16px;
+  list-style-type: none;
+}
+
+nav a {
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+/* Main Content */
+
+/* Starting Section */
+
+#starting-section {
+  display: flex;
+  width: 100%;
+  background-color: #a1a1a1;
+  align-items: center;
+  align-content: center;
+}
+
+#banner {
+  padding: 96px 24px 32px 24px;
+  width: 60%;
+}
+
+.start-text {
+  color: #3b3b3b;
+  margin: auto;
+  font-size: 2em;
+}
+
+.button {
+  text-align: center;
+  background-color: #3b3b3b;
+  color: white;
+  margin: auto 48px;
+}
+
+/* Info Section */
+
+#info-section {
+  display: flex;
+}
+
+#info-main {
+  padding: 32px 24px;
+}
+
+.info-text {
+  padding-left: 24px;
+}
+
+.info-text h1 {
+  padding-bottom: 24px;
+  color: #3b3b3b;
+}
+
+.info-text span {
+  padding-bottom: 32px;
+}
+
+.info-grid {
+  border-left: 1px solid #a1a1a1;
+  width: 40%;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3,1fr);
+}
+
+/* Learning Section */
+
+/* Thesis Section */
+
+/* Footer */
