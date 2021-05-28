@@ -10,7 +10,7 @@
     <body>
         <!--Header-->
         <header>
-            <div class="content">
+            <div class="navi">
                 <a href="index.html" class="desktop logo"><img src="resources/images/ic-logo.svg"><strong>COLMAR</strong>ACADEMY</a>
                 <nav class="desktop">
                     <ul>
@@ -24,46 +24,154 @@
         </header>
 
         <!--Main Content-->
-        <div class="main-content">
+        <main>
 
             <!--Starting Section-->
-            <div id="starting-section">
-                <img src="resources/images/banner.jpg" id="banner">
+            <div class="grid" id="starting-section">
+                <div class="banner">
+                    <img src="resources/images/banner.jpg" />
+                </div>
+                
                 <div class="start-text">
                     <h1>Learn something new everyday</h1>
                     <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                    <div href ="#" class="button">Start here</div>
+                    <button type="button" href="#">Start Here</button>
                 </div>
             </div>
 
             <!--Info Section-->
-            <div id="info-section">
+            <div class="grid" id="info-section">
                 <div class="info-left">
-                    <img src="resources/images/information-main.jpg" id="info-main">
-                    <h1>It's doesn't hurt to keep practicing</h1>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-                    <span>Emanuel, Sr Strategist at Hiring.com</span>
+                    <div class="banner">
+                        <img src="resources/images/information-main.jpg" />
+                    </div>
+                    <div class="info-text">
+                        <h1>It doesn't hurt to keep practicing</h1>
+                        <p>"Aenean non ante egestas risus porta gravida sed id tellus. Nam blandit erat erat, ac condimentum nibh scelerisque vitae. Integer eget eros rutrum, vehicula 
+                            leo a, lacinia arcu. Etiam scelerisque diam eget sodales viverra. Vestibulum eget libero condimentum, tincidunt quam quis, pharetra dolor."</p>
+                        <span>Emmanuel, Sr Strategist at Hiring.com</span>
+                    </div>
                 </div>
-                <div class="info-grid">
 
+                <div class="info-grid">
+                    <div class="box one">
+                        <img class="box-pic" src="resources/images/information-orientation.jpg" />
+                        <div class="box-text">
+                            <h2>Orientation date</h2>
+                            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+    
+                    <div class="box two">
+                        <img class="box-pic" src="resources/images/information-campus.jpg" />
+                        <div class="box-text">
+                            <h2>Our campus</h2>
+                            <p>Find which campus is close by you</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+    
+                    <div class="box three">
+                        <img class="box-pic" src="resources/images/information-guest-lecture.jpg" />
+                        <div class="box-text">
+                            <h2>Our guest lecture</h2>
+                            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!--Learning Section-->
-            <div id="learning-section">
+            <div class="learning-section">
+                <h1 class="heading">Start Learning</h1>
+                <div class="course-grid">
+                    <figure>
+                        <img src="./resources/images/course-software.jpg" />
+                        <h2>Software Engineering</h2>
+                        <figcaption>COURSES</figcaption>
+                        <figcaption>Web Development, Mobile Development, iOT, APIs</figcaption>
+                    </figure>
 
+                    <figure>
+                        <img src="./resources/images/course-computer-art.jpg" />
+                        <h2>Computer Art</h2>
+                        <figcaption>COURSES</figcaption>
+                        <figcaption>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="./resources/images/course-design.jpg" />
+                        <h2>Design</h2>
+                        <figcaption>COURSES</figcaption>
+                        <figcaption>User Experience Design, User Research, Visual Design</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="./resources/images/course-data.jpg" />
+                        <h2>Data</h2>
+                        <figcaption>COURSES</figcaption>
+                        <figcaption>Data Science, Big Data, SQL, Data Visualization</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="./resources/images/course-business.jpg" />
+                        <h2>Business</h2>
+                        <figcaption>COURSES</figcaption>
+                        <figcaption>Product Development, Business Development, Startup</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="./resources/images/course-marketing.jpg" />
+                        <h2>Marketing</h2>
+                        <figcaption>COURSES</figcaption>
+                        <figcaption>Analytics, Content Marketing, Mobile Marketing</figcaption>
+                    </figure>
+                </div>
             </div>
         
             <!--Thesis Section-->
             <div id="thesis-section">
+                <h1 class="heading">Thesis Exhibit</h1>
+                <div class="grid">
+                    <div class="thesis-left">
+                        <video src="resources/videos/thesis.mp4" controls></video>
+                        <h1>Reimagine Urban</h1>
+                        <p>"Aenean non ante egestas risus porta gravida sed id tellus. Nam blandit erat erat, ac condimentum nibh scelerisque vitae. Integer eget eros rutrum, vehicula 
+                            leo a, lacinia arcu. Etiam scelerisque diam eget sodales viverra."</p>
+                    </div>
 
+                    <div class="thesis-grid">
+                        <div class="box four">
+                            <img class="box-pic" src="resources/images/thesis-fisma.jpg" />
+                            <div class="box-text">
+                                <h2>Fisma: Design and Prototype</h2>
+                                <p>Designer showcase of new prototype product</p>
+                            </div>
+                        </div>
+        
+                        <div class="box five">
+                            <img class="box-pic" src="resources/images/thesis-now-and-then.jpg" />
+                            <div class="box-text">
+                                <h2>Now and then</h2>
+                                <p>Research study about New York</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <!--Footer-->
-            <footer>
-
-            </footer>
-        </div>
+        </main>
+        
+        <!--Footer-->
+        <footer class="desktop">
+            <nav class="footer">
+                <p>&copy; 2016 Colmar Academy. All rights reserved</p>
+                <ul>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>
