@@ -227,8 +227,10 @@ button:hover {
 }
 
 figure {
+  padding-bottom: 24px;
   margin: 0;
   width: min-content;
+  background-color: #450494e0;
 }
 
 figure img {
@@ -238,6 +240,7 @@ figure img {
 }
 
 figure h2 {
+  color: #E0DE34;
   font-size: 3em;
   margin: 0;
   padding-left: 16px;
